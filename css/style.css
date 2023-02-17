@@ -1,0 +1,29 @@
+@import url('fonts.css');
+@import url('background.css');
+@import url('footer.css');
+@import url('scene.css');
+
+:root {
+  background-color: white;
+
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  scroll-behavior: smooth;
+}
+
+body, section {
+  position: fixed;
+  inset: 0;
+}
+
+body:not(.loaded) * {
+  animation: none!important;
+  transition: none!important;
+}

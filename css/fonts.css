@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/raleway.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Duru Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/duru-sans.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/zen-kaku-gothic-new.woff2') format('woff2');
+}

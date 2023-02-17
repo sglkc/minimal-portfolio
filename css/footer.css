@@ -1,0 +1,38 @@
+footer {
+  margin: clamp(1rem, 5vw, 2.5rem);
+  position: fixed;
+  inset: 0;
+  top: unset;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Duru Sans';
+  font-size: 0.75rem;
+  pointer-events: none;
+}
+
+footer > div {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hover footer > div {
+  color: white;
+}
+
+footer > div > a {
+  font-size: 0.875rem;
+  text-align: right;
+  color: inherit;
+  pointer-events: all;
+}
+
+@media only screen and (max-width: 576px) {
+  footer > div > a {
+    font-size: 0.75rem;
+  }
+}
+footer > div:has(p, a) {
+  transition: color 250ms ease;
+}
